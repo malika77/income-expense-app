@@ -1,12 +1,17 @@
+import SideBar from "./Components/comman/sidebar/SideBar"
+import Dashboard from "./Components/comman/dashboard/Dashboard"
 
-function App() {
+const App = () => {
  
 
   return (
     <>
-       <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+       
+<SideBar/>
+<Dashboard/>
+
+
+       
     </>
   )
 }
